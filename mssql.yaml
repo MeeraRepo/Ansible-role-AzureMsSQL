@@ -1,0 +1,6 @@
+---
+ - name: Install MSSQL on Windows
+   hosts: win
+   roles:
+    - { role: snp-mssql }
+
