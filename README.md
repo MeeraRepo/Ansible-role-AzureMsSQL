@@ -1,4 +1,4 @@
-kkolk.mssql
+Azure.mssql
 =========
 Description
 -----------
@@ -207,14 +207,10 @@ Example Playbook
   tags: mssql
 
   roles:
-  - { role: kkolk.mssql }
+  - { role: snp-mssql }
 
 License
 -------
 
 BSD / MIT
 
-Author Information
-------------------
-
-Kevin Kolk - http://www.frostbyte.us
